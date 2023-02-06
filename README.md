@@ -58,7 +58,13 @@ Copy the id without the quotes. In my case the id was
 
 Keep in mind that a new id is randomly generated after every successful call.
 
-![image](https://user-images.githubusercontent.com/32846700/217078085-ccce34e6-f854-486e-83a3-1083b3807dc0.png)
+Navigate to the Points API endpoint and click the 'Try out' button on the right and paste the id you got from your previous call to the id section to the API and you receive a response similar to this.
+
+![image](https://user-images.githubusercontent.com/32846700/217078931-d0465eb2-8ab4-48fe-87a9-0bfbf9942905.png)
+
+At the bottom of the page we can see that the receipt with the id we pasted has rewarded us with 109 points!
+
+![image](https://user-images.githubusercontent.com/32846700/217079298-1251572f-7c12-4ede-84d2-d6da96f32e18.png)
 
 
 
