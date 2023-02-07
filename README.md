@@ -19,7 +19,7 @@ You should see a page similar to this.
 
 Let's try out the API!
 
-Navigate to the Processor documentation and click on the Try Out button on the right side of the screen.
+Navigate to the Processor documentation and click on the 'Try Out' button on the right side of the screen.
 
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/32846700/217076226-d716b044-851f-440c-9036-9dfa393d960f.png">
 
@@ -58,11 +58,13 @@ Copy the id without the quotes. In my case the id was
 
 Keep in mind that a new id is randomly generated after every successful call.
 
-Navigate to the Points API endpoint and click the 'Try out' button on the right and paste the id you got from your previous call to the id section to the API and you receive a response similar to this.
+Navigate to the Points API endpoint and click the 'Try out' button on the right and paste the id you got from your previous call to the id section of the API and you should see receive a response similar to this.
 
 <img width="1420" alt="Screenshot 2023-02-06 at 2 31 36 PM" src="https://user-images.githubusercontent.com/32846700/217079424-4833f60b-5301-4bf7-a6cd-f9ee72b2e5b6.png">
 
 At the bottom of the page we can see that the receipt with the id we pasted has rewarded us with 109 points!
+
+We can also test our endpoints on postman so navigate to [postman](https://www.postman.com) and download and install it.
 
 
 
