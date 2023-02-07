@@ -11,7 +11,7 @@ This should start up the server and you should see an output similar to this.
 
 <img width="631" alt="image" src="https://user-images.githubusercontent.com/32846700/217070583-deeaa13b-6b17-4b91-b62b-1166ebdb3a9b.png">
 
-Paste this url in your browser or click on it [http://localhost:8000/docs](http://localhost:8000/docs) to navigate to the swagger UI where we can try out the API endpoints.
+Paste this url in your browser or click on it [http://localhost:8000/docs](http://localhost:8000/docs) to navigate to the swagger UI where you can try out the API endpoints.
 
 You should see a page similar to this.
 
@@ -62,9 +62,9 @@ Navigate to the Points API endpoint and click the 'Try out' button on the right 
 
 <img width="1420" alt="Screenshot 2023-02-06 at 2 31 36 PM" src="https://user-images.githubusercontent.com/32846700/217079424-4833f60b-5301-4bf7-a6cd-f9ee72b2e5b6.png">
 
-At the bottom of the page we can see that the receipt with the id we pasted has rewarded us with 109 points!
+At the bottom of the page you can see that the receipt with the id you pasted has rewarded you with 109 points!
 
-We can also test our endpoints on postman so navigate to [postman](https://www.postman.com) and download and install it.
+You can also test our endpoints on postman so navigate to [postman](https://www.postman.com) and download and install it.
 
 You should be welcomed with similar to this.
 ![image](https://user-images.githubusercontent.com/32846700/217323422-f2c09ea0-71c5-4ad4-8df6-46337ed4dc9a.png)
@@ -96,5 +96,9 @@ paste this url [http://localhost:8000/receipts/process](http://localhost:8000/re
   "total": "35.35"
 }
 ```
-Now create a new request by clicking on the '+' button at the top left of your screen. paste
+Now create a new request by clicking on the '+' button at the top left of your screen and paste this url on the address bar [https://localhost:8000/receipts/{id}/points](https://localhost:8000/receipts/{id}/points), select 'GET' from the dropdown on the right and hit 'Send'.
+You should see a similar response to this.
+
+<img width="1082" alt="image" src="https://user-images.githubusercontent.com/32846700/217327449-20d1ab0c-406b-4aac-8982-344522caa113.png">
+At the bottom you can see it was a '200' http response type indicating that the call was successful and you should also see a JSON type response with the number of points allocated from our receipt.
 
