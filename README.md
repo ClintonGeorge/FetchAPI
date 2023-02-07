@@ -5,7 +5,7 @@
 
 Open the terminal window and enter the following command that will retrieve the docker image from my docker hub repo and create and start the container:
 ```
-docker run -p 8000:8000 cgeorge1/fetchapi:v6
+docker run -p 8000:8000 cgeorge1/fetchapi:v7
 ```
 This should start up the server and you should see an output similar to this.
 
