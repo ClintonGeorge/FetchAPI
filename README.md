@@ -66,7 +66,7 @@ At the bottom of the page you can see that the receipt with the id you pasted ha
 
 You can also test our endpoints on postman so navigate to [postman](https://www.postman.com) and download and install it.
 
-You should be welcomed with similar to this.
+You should be welcomed with a page similar to this.
 ![image](https://user-images.githubusercontent.com/32846700/217323422-f2c09ea0-71c5-4ad4-8df6-46337ed4dc9a.png)
 
 paste this url [http://localhost:8000/receipts/process](http://localhost:8000/receipts/process) on the address bar provided and select the 'POST' option from the dropdown to the left of the address bar. Select 'body', 'raw' and on the dropdown to your right select 'JSON' and paste the body of the request in the allocated space and hit the 'send' button. You should receive a '200' response along with a JSON type response with an id, indicating that it was a successfull call.
