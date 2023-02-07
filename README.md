@@ -1,9 +1,9 @@
 # My submission for the Backend Software Engineer Apprentice role @ Fetch Rewards
 
 ## The python framework, fastapi, was used to build this application.
-## instrustions to run the code:
+## instructions to run the code:
 
-Open the terminal window and enter the following command that will retrieve the docker image from my docker hub repo and create and start the container:
+Open the terminal and enter the following command that will retrieve the docker image from my docker hub repo and create and start the container:
 ```
 docker run -p 8000:8000 cgeorge1/fetchapi:v7
 ```
